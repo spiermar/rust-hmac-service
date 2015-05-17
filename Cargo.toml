@@ -1,0 +1,12 @@
+[package]
+
+name = "rust-hmac-service"
+version = "0.0.1"
+authors = [ "Martin Spier <spiermar@gmail.com>" ]
+
+[dependencies]
+
+iron = "*"
+rust-crypto = "*"
+rustc-serialize = "0.3"
+rand = "0.3"
